@@ -21,7 +21,7 @@ public class Experiment_4 {
         if (a < -1_000_000 || a > 1_000_000 ||
             b < -1_000_000 || b > 1_000_000 ||
             c < -1_000_000 || c > 1_000_000) {
-            System.out.println("Invalid input. Numbers must be between -1000000 and 1000000.");
+            System.out.println("Invalid input.  Numbers must be between -1000000 and 1000000.");
         } else {
             Experiment_4 obj = new Experiment_4();
             System.out.println(obj.findlargest(a, b, c));
