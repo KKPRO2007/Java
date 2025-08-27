@@ -8,7 +8,7 @@ public class Experiment_2 {
         System.out.println("product: " + (a * b));
 
         if (b == 0)
-            System.out.println("quotient error !!! division by zero");
+            System.out.println("quotient error, division by zero");
         else
             System.out.println("quotient: " + (a / b));
     }
