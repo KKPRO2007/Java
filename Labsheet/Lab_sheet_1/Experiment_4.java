@@ -16,7 +16,7 @@ public class Experiment_4 {
 
         int a = z.nextInt();
         int b = z.nextInt();
-        int c = z.nextInt();
+        int c =   z.nextInt();
 
         if (a < -1_000_000 || a > 1_000_000 ||
             b < -1_000_000 || b > 1_000_000 ||
