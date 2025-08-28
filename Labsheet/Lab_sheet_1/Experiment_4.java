@@ -18,7 +18,7 @@ public class Experiment_4 {
         int b = z.nextInt();
         int c =   z.nextInt();
 
-        if (a < -1_000_000 || a > 1_000_000 ||
+        if (a < -1_000_000 || a > 1_000_000 || 
             b < -1_000_000 || b > 1_000_000 ||
             c < -1_000_000 || c > 1_000_000) {
             System.out.println("Invalid input. Numbers must be between -1000000 and 1000000.");
