@@ -8,7 +8,7 @@ public class Calculator {
 	        System.out.println("Sum: " + sum);
 	    }
 
-	    public static void main(String[] args) {
+	        public static void main(String[] args) {
 	        Calculator obj = new Calculator();
 	        obj.addNumbers();
 	    }
