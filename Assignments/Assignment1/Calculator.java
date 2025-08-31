@@ -7,7 +7,6 @@ public class Calculator {
 	        int sum = num1 + num2;
 	        System.out.println("Sum: " + sum);
 	    }
-
 	        public static void main(String[] args) {
 	        Calculator obj = new Calculator();
 	        obj.addNumbers();
