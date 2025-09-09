@@ -12,7 +12,7 @@ public class Count_no_of_words {
         if (s.isEmpty()) 
             System.out.println("no of words is 0");
          else {
-            String[] a = s.split("\\s+");
+            String[] a = s.split(" ");
             System.out.println("no of words: " + a.length);
 
 	}
