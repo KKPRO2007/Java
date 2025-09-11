@@ -44,7 +44,7 @@ public class Array_freq_unique_duplicate {
 			if(b[i]>0)
 				System.out.println(i+" = "+b[i]);
 		}
-		
+	
 		
 }
 	}
