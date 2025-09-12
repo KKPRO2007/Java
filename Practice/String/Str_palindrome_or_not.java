@@ -16,7 +16,6 @@ public class Str_palindrome_or_not {
 	            System.out.println("its a palindrome.");
 	         else 
 	            System.out.println("itsnt a palindrome.");
-
 	
 	}
 }
