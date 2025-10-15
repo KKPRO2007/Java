@@ -9,9 +9,12 @@ public class print_odd_no {
 			System.out.println("entre the number: ");
 			int n =x.nextInt();
 			int i = 1;
+			int count = 0;
 			 while (i <= n) {
 		            System.out.println(i);
 		            i += 2;
+		            count++;
+		            System.out.println("count is "+count);
 	}
 
 }

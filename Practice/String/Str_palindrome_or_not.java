@@ -5,8 +5,8 @@ public class Str_palindrome_or_not {
 	public static void main(String[] args) {
 		 Scanner z = new Scanner(System.in);
 	        System.out.print("Enter value for str: ");
-	        String input = z.nextLine();
-	        String l = input.toLowerCase();
+	        String s = z.nextLine();
+	        String l = s.toLowerCase();
 
 	        String reversed = "";
 	        for (int i = l.length() - 1; i >= 0; i--) 

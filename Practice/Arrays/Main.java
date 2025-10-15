@@ -3,24 +3,51 @@ import java.util.Scanner;
 public class Main {
 	public static void main ( String []k) {
 		Scanner z = new Scanner ( System.in);
-		System.out.println("entre the array value");
-		int c = z.nextInt();
-		int n [] = new int [c];
-		System.out.println("entre the input for string");
-		for(int i = 0; i<c; i++)
-			n[i]=z.nextInt();
-		int max = n[0];
-		for (int i = 1; i<c; i++)
-			if(n[i]>max)
-				max= n[i];
-		int b []= new int [max +1];
-		for ( int i=0; i<c; i++)
-			b[n[i]]++;
+		System.out.println("entre the size");
+		int n = z.nextInt();
+		int a [] = new int [n];
+		System.out.println("enter thr elements: ");
+		for (int i = 0; i<n;i++)
+			a[i]=z.nextInt();
+		int max = a[0];
+		for (int i=1;i<n;i++) {
+			if(a[i]>max)
+				max=a[i];
+		}
+			int b[]= new int [max+1];
+			for (int i=0;i<n;i++ )
+				b[a[i]]++;
+			
+			System.out.println("the freq of the array: ");
+			int cf=0;
+			for (int i = 0; i<b.length ;i++)
+			{
+				if(b[i]>0)
+					System.out.println(i+"="+b[i]);
+				cf++;
+			}
+			
+			System.out.println("the unq of the array: ");
+			for (int i = 0; i<b.length ;i++)
+			{
+				if(b[i]==1)
+					System.out.println(i);
+			}
+			
+			System.out.println("the dup of the array: ");
+			int cd=0;
+			for (int i = 0; i<b.length ;i++)
+			{
+				if(b[i]>1)
+					System.out.println(i);
+				cd++;
+			}
+			System.out.println("the count of dup: "+ cd);
+			System.out.println("the count of frq: "+ cf);
+			
+					
+				
 		
-		System.out.println("the freq of array");
-		for ( int i = 0; i<b.length ;i++) {
-			if (b[i]>0)
-				System.out.println(i + " = " + b[i]);
 		
 		
 		
@@ -29,4 +56,4 @@ public class Main {
 		
 	}
 
-}
+

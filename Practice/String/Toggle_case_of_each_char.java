@@ -4,7 +4,6 @@ import java.util.Scanner;
 public class Toggle_case_of_each_char {
     public static void main(String[] args) {
         Scanner z = new Scanner(System.in);
-        System.out.println("Enter the string: ");
         String s1 = z.nextLine();
         String s2 = "";
         for (int i = 0; i < s1.length(); i++) {

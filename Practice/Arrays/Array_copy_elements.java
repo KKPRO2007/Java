@@ -5,14 +5,10 @@ import java.util.Scanner;
 public class Array_copy_elements {
     public static void main(String[] args) {
         Scanner z = new Scanner(System.in);
-
-        System.out.print("Enter size of the array: ");
         int n = z.nextInt();
 
         int[] a = new int[n];
         int[] b = new int[n]; 
-
-        System.out.println("Enter elements: ");
         for (int i = 0; i < n; i++) {
             a[i] = z.nextInt();
         }

@@ -6,16 +6,15 @@ package Loops;
 			Scanner z = new Scanner ( System.in);
 			System.out.println("entre the no: ");
 			int n = z.nextInt();
-			int flag = 0;
-			for ( int i = 2; i<=n/2; i++) {
+			int flag =0;
+			for (int i=2;i<n/2;i++)
 				if(n%i==0) {
 					flag=1;
 					break;
 				}
-			}
 			if(flag==0)
 				System.out.println("its prime");
-			else 
+			else
 				System.out.println("its not prime");
 					
 			}
