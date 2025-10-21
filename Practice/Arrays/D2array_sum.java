@@ -18,7 +18,6 @@ public class D2array_sum {
     	 
                }
     	   }
-    	 
     	   System.out.println(sum);
     }
 }
