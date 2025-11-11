@@ -90,20 +90,20 @@ public class Set_operations {
     
 		
 		
-		int n =z.nextInt();
-		HashSet<Integer> set = new HashSet<>();
-		for(int i=0; i<n; i++)
-    	set.add(z.nextInt());
-		System.out.println(set);
-		
-		int j =z.nextInt();
-		int count = 0;
-		
-		for ( int x : set) {
-			if( x > j)
-				count++;
-		}
-        System.out.println("Elements greater than " + j+ ": " + count);
+//		int n =z.nextInt();
+//		HashSet<Integer> set = new HashSet<>();
+//		for(int i=0; i<n; i++)
+//    	set.add(z.nextInt());
+//		System.out.println(set);
+//		
+//		int j =z.nextInt();
+//		int count = 0;
+//		
+//		for ( int x : set) {
+//			if( x > j)
+//				count++;
+//		}
+//        System.out.println("Elements greater than " + j+ ": " + count);
 		
 		
 		
